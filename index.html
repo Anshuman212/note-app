@@ -1,52 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Notes App in JavaScript | CodingNepal</title>
     <link rel="stylesheet" href="style.css">
-    <title>Note App</title>
-</head>
-<body>
-    <div class="wrapper">
-        <li class="add-box">
-            <div class="icon"> <i class="uil uil-plus"></i>
-                  </div>
-            <p>Add new note</p>
-        </li>
-        <!-- note section -->
-        <li class="note">
-            <div class="details">
-                <p>This is Title</p>
-                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur eum in laborum quidem accusantium, eos ipsum provident eaque, est, assumenda minima nesciunt cupiditate ea totam nostrum dolor. Expedita, neque nostrum!</span>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Iconscout Link For Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body>
+    <div class="popup-box">
+      <div class="popup">
+        <div class="content">
+          <header>
+            <p></p>
+            <i class="uil uil-times"></i>
+          </header>
+          <form action="#">
+            <div class="row title">
+              <label>Title</label>
+              <input type="text" spellcheck="false">
             </div>
-            <div class="bottom-content">
-                <span>April 1,2022</span>
-                <div class="settings"><i class="uil uil-ellipsis-h"></i></div>
+            <div class="row description">
+              <label>Description</label>
+              <textarea spellcheck="false"></textarea>
             </div>
-        </li>
-        <li class="note">
-            <div class="details">
-                <p>This is Title</p>
-                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur eum in laborum quidem accusantium, eos ipsum provident eaque, est, assumenda minima nesciunt cupiditate ea totam nostrum dolor. Expedita, neque nostrum!</span>
-            </div>
-            <div class="bottom-content">
-                <span>April 1,2022</span>
-                <div class="settings"><i class="uil uil-ellipsis-h"></i></div>
-            </div>
-        </li>
-        <li class="note">
-            <div class="details">
-                <p>This is Title</p>
-                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur eum in laborum quidem accusantium, eos ipsum provident eaque, est, assumenda minima nesciunt cupiditate ea totam nostrum dolor. Expedita, neque nostrum!</span>
-            </div>
-            <div class="bottom-content">
-                <span>April 1,2022</span>
-                <div class="settings"><i class="uil uil-ellipsis-h"></i></div>
-            </div>
-        </li>
-        
+            <button></button>
+          </form>
+        </div>
+      </div>
     </div>
-</body>
+    <div class="wrapper">
+      <li class="add-box">
+        <div class="icon"><i class="uil uil-plus"></i></div>
+        <p>Add new note</p>
+      </li>
+    </div>
+
+    <script src="script.js"></script>
+    
+  </body>
 </html>
